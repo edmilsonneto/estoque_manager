@@ -3,9 +3,9 @@ from pydantic import BaseModel
 from uuid import uuid4
 from datetime import datetime
 from typing import List
-from models import Estoque, Produto
-from schemas import ProdutoCriacao, ProdutoAtualizacao
-from database import (get_estoque, add_produto, update_produto, delete_produto,
+from api.models import Estoque, Produto
+from api.schemas import ProdutoCriacao, ProdutoAtualizacao
+from api.database import (get_estoque, add_produto, update_produto, delete_produto,
                       get_produto_by_id)
 
 app = FastAPI(title="Estoque API")

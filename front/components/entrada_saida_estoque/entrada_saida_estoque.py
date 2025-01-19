@@ -1,5 +1,5 @@
 from reactpy import component, event, use_state, html
-from service.api_service import entrada_estoque, saida_estoque
+from front.service.api_service import entrada_estoque, saida_estoque
 
 
 @component

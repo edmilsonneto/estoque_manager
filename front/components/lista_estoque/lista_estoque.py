@@ -1,5 +1,5 @@
 from reactpy import component, html, use_effect, use_state
-from service.api_service import fetch_produtos
+from front.service.api_service import fetch_produtos
 import asyncio
 
 @component

@@ -2,8 +2,8 @@ from typing import List, Dict
 from pydantic import BaseModel
 from uuid import uuid4
 from datetime import datetime
-from models import Estoque, Produto
-from schemas import ProdutoCriacao, ProdutoAtualizacao
+from api.models import Estoque, Produto
+from api.schemas import ProdutoCriacao, ProdutoAtualizacao
 
 
 estoque: List[Dict] = []

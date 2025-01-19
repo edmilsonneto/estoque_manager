@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from reactpy import component, html, use_state
-from components.cadastro_produto.cadastro_produto import CadastroProduto
-from components.entrada_saida_estoque.entrada_saida_estoque import EntradaSaidaEstoque
-from components.lista_estoque.lista_estoque import ListaEstoque
-from service.api_service import adicionar_produto_async, atualizar_produto_async, fetch_produtos
+from front.components.cadastro_produto.cadastro_produto import CadastroProduto
+from front.components.entrada_saida_estoque.entrada_saida_estoque import EntradaSaidaEstoque
+from front.components.lista_estoque.lista_estoque import ListaEstoque
+from front.service.api_service import adicionar_produto_async, atualizar_produto_async, fetch_produtos
 from reactpy.backend.fastapi import configure
 
 cdn_1 = html.link({

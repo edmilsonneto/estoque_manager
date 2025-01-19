@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pydantic
+uuid
+reactpy
+httpx
